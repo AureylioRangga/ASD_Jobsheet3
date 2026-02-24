@@ -26,6 +26,7 @@ public class Percobaan2 {
             System.out.println("-------------------------------------");
         }
 
+
         arrayOfMahasiswa[0] = new Mahasiswa07();
         arrayOfMahasiswa[0]. nim = "2441070600033";
         arrayOfMahasiswa[0]. nama = "AGNEZ TITANIA KINANTI";
