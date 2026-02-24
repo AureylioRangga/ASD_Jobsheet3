@@ -37,6 +37,13 @@ public class MataKuliahDemo07 {
             System.out.println("-------------------------------------");  
         }
 
+        // mencetak info mata kuliah soal no 3
+        for (int i=0; i<3; i++){
+            System.out.println("Data Mata Kuliah Ke-" + (i+1) + " : ");
+            arrayMataKuliah[i].cetakInfo();
+            System.out.println("-------------------------------------");  
+        }
+
         for (int j=0; j<3; j++){
             System.out.println("Data Mata Kuliah Ke-" + (j+1) + " : ");
             System.out.println("Kode       : " + arrayMataKuliah[j].kode);
