@@ -17,16 +17,16 @@ public class DosenDemo07 {
 
             System.out.println("Masukkan Data Dosen ke-" + (i + 1));
 
-            System.out.print("Kode  : ");
+            System.out.print("Kode           : ");
             String kode = input.nextLine();
 
-            System.out.print("Nama  : ");
+            System.out.print("Nama           : ");
             String nama = input.nextLine();
 
-            System.out.print("Jenis Kelamin (true=Pria, false=Wanita) : ");
+            System.out.print("Jenis Kelamin  : ");
             Boolean jk = input.nextBoolean();
 
-            System.out.print("Usia   : ");
+            System.out.print("Usia           : ");
             int usia = input.nextInt();
             input.nextLine();
 
@@ -44,11 +44,11 @@ public class DosenDemo07 {
         for (Dosen07 d : arrayOfDosen) {
 
             System.out.println("Data Dosen ke-" + no++);
-            System.out.println("Kode : " + d.kode);
-            System.out.println("Nama : " + d.nama);
-            System.out.println("Jenis Kelamin : " + (d.jenisKelamin ? "Pria" : "Wanita"));
-            System.out.println("Usia : " + d.usia);
-            System.out.println("----------------------");
+            System.out.println("Kode            : " + d.kode);
+            System.out.println("Nama            : " + d.nama);
+            System.out.println("Jenis Kelamin   : " + (d.jenisKelamin ? "Pria" : "Wanita"));
+            System.out.println("Usia            : " + d.usia);
+            System.out.println("------------------------");
 
         }
 

@@ -8,11 +8,11 @@ public class DataDosen07 {
         for (Dosen07 d : arrayOfDosen) {
 
             System.out.println("Data Dosen ke-" + no++);
-            System.out.println("Kode : " + d.kode);
-            System.out.println("Nama : " + d.nama);
-            System.out.println("Jenis Kelamin : " + (d.jenisKelamin ? "Pria" : "Wanita"));
-            System.out.println("Usia : " + d.usia);
-            System.out.println("----------------------");
+            System.out.println("Kode                                            :       " + d.kode);
+            System.out.println("Nama                                            :       " + d.nama);
+            System.out.println("Jenis Kelamin : " + (d.jenisKelamin ? "Pria"    :       "Wanita"));
+            System.out.println("Usia                                            :       " + d.usia);
+            System.out.println("------------------------------------------------------------");
 
         }
 
@@ -32,7 +32,7 @@ public class DataDosen07 {
                 wanita++;
         }
 
-        System.out.println("Jumlah Dosen Pria : " + pria);
+        System.out.println("Jumlah Dosen Pria   : " + pria);
         System.out.println("Jumlah Dosen Wanita : " + wanita);
 
     }
@@ -44,18 +44,19 @@ public class DataDosen07 {
         int pria = 0, wanita = 0;
 
         for (Dosen07 d : arrayOfDosen) {
+
             if (d.jenisKelamin == true) {
                 totalPria += d.usia;
                 pria++;
             } else {
                 totalWanita += d.usia;
                 wanita++;
-
+        
             }
 
         }
 
-        System.out.println("Rata-rata usia pria : " + (totalPria / pria));
+        System.out.println("Rata-rata usia pria   : " + (totalPria / pria));
         System.out.println("Rata-rata usia wanita : " + (totalWanita / wanita));
 
     }
@@ -73,10 +74,10 @@ public class DataDosen07 {
         }
 
         System.out.println("Dosen Paling Tua");
-        System.out.println("Kode : " + palingTua.kode);
-        System.out.println("Nama : " + palingTua.nama);
-        System.out.println("Jenis Kelamin : " + (palingTua.jenisKelamin ? "Pria" : "Wanita"));
-        System.out.println("Usia : " + palingTua.usia);
+        System.out.println("Kode                                                    : " + palingTua.kode);
+        System.out.println("Nama                                                    : " + palingTua.nama);
+        System.out.println("Jenis Kelamin : " + (palingTua.jenisKelamin ? "Pria"    : "Wanita"));
+        System.out.println("Usia                                                    : " + palingTua.usia);
 
     }
 
@@ -90,10 +91,7 @@ public class DataDosen07 {
             if (d.usia < palingMuda.usia) {
 
                 palingMuda = d;
-
-            }
-
-        }
+            }}
 
         System.out.println("Dosen Paling Muda");
         System.out.println("Kode : " + palingMuda.kode);
