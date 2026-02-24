@@ -11,7 +11,7 @@ public class MataKuliah07 {
         this.jumlahJam = jumlahJam;
     }   
 
-    
+    // method untuk menambah data mata kuliah soal no 2
     void tambahData(String kd, String nm, int s) {
         kode = kd;
         nama = nm;
