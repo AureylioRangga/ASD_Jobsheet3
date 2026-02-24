@@ -31,7 +31,7 @@ public class DataDosen07 {
             else
                 wanita++;
         }
-
+ 
         System.out.println("Jumlah Dosen Pria   : " + pria);
         System.out.println("Jumlah Dosen Wanita : " + wanita);
 
