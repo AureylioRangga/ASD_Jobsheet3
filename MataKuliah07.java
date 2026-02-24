@@ -17,4 +17,13 @@ public class MataKuliah07 {
         nama = nm;
         sks = s;
     }
+
+    // method untuk centak info() soal no 3
+    void cetakInfo() {
+         System.out.println("Kode : " + kode);
+         System.out.println("Nama : " + nama);
+         System.out.println("SKS : " + sks);
+         System.out.println("Jumlah Jam : " + jumlahJam);
+    
+    }
 }
